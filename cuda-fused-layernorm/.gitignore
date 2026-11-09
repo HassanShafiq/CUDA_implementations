@@ -1,0 +1,37 @@
+# Build output
+build/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+dist/
+*.egg-info/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.pyd
+*.so
+*.lib
+*.exp
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+CMakeSettings.json
+*.user
+*.suo
+
+# CUDA / profiler artefacts
+*.ptx
+*.cubin
+*.fatbin
+*.nsys-rep
+*.ncu-rep
+*.sqlite
+
+# Benchmark output (keep the folder, ignore raw runs unless you choose to commit them)
+results/*.csv
+!results/.gitkeep
